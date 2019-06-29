@@ -1,1 +1,1 @@
-BitCola-Exchange API-docs coming soon!
+### [BitCola API Example](https://github.com/BitCola/API-docs)
