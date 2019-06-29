@@ -1,1 +1,1 @@
-### [BitCola API Example](https://github.com/BitCola/API-docs)
+### [BitCola API Example](https://github.com/BitCola/quantitative)
