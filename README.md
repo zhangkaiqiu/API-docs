@@ -17,7 +17,7 @@
 
 `5 calls per second per API`
 
-### [Error Code](https://github.com/BitCola/API-docs/README.md#5-ErrorCode)
+### [Error Code](https://github.com/BitCola/API-docs/blob/master/README.md#5-error-code)
 
 
 ## 2 Configuration
