@@ -509,3 +509,21 @@ GET /api/trade/getOrders
 |`data.type`|string|订单类型|
 
 ## 5 错误码
+
+
+|status|message|错误信息|
+|-|-|-|
+|1000|Success|成功|
+|1001|Tip|错误提示|
+|1002|Error|错误|
+|1003|Verification Failed|签名错误|
+|1004|In Maintenance|接口维护中|
+|1005|Not Allow Trade|当前交易对不允许交易|
+|1006|The transaction has not been opened yet|当前交易对暂未开放交易|
+|1007|Price error|输入错误的价格|
+|1008|Amount error|输入错误的数量|
+|2001|Insufficient balance or Parameter 'pair' error|余额不足或交易对参数错误|
+|3005|Parameter error|传入参数错误|
+|3006|Ip error|不是申请API时填入的IP地址|
+|3007|Expire|请求已过期|
+
