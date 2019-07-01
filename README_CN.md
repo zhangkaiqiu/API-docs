@@ -276,7 +276,7 @@ GET /api/market/kline
 |`pair`|string|是|交易对|ETH_USDT|
 |`type`|string|是|1m/5m/15m/30m/1h/4h/6h/8h/12h/1d|1m|
 |`endTimestamp`|number|否|k 线截止时间，默认为服务器当前时间|1561384440000|
-|`size`|integer|否|返回数据长度|1|
+|`size`|integer|否|返回数据长度，默认 1000，最大 2000|1|
 
 
 
