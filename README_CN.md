@@ -9,12 +9,12 @@
 `暂未上线`
 
 ####  签名方式
-申请 API 将获得 accessKey 和 secretKey，先用sha加密secretKey，然后根据加密过的secretKey把请求的参数签名，请求参数按照ascii值排序加密，通过md5填充16位加密
+`申请 API 将获得 accessKey 和 secretKey，先用sha加密secretKey，然后根据加密过的secretKey把请求的参数签名，请求参数按照ascii值排序加密，通过md5填充16位加密`
 ### [示例代码](https://github.com/BitCola/quantitative/blob/master/src/main/java/com/bitcola/quantitative/api/TradeApi.java)
 
 ####  访问限制
 
-每个接口每秒限制调用 5 次
+`每个接口每秒限制调用 5 次`
 
 ### [错误码](https://github.com/BitCola/API-docs/blob/master/README_CN.md#5-%E9%94%99%E8%AF%AF%E7%A0%81)
 
