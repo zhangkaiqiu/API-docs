@@ -509,3 +509,19 @@ GET /api/trade/getOrders
 |`data.type`|string||
 
 ## 5 Error Code
+
+|status|message|Description|
+|-|-|-|
+|1000|Success||
+|1001|Tip||
+|1002|Error||
+|1003|Verification Failed||
+|1004|In Maintenance||
+|1005|Not Allow Trade||
+|1006|The transaction has not been opened yet||
+|1007|Price error||
+|1008|Amount error||
+|2001|Insufficient balance or Parameter 'pair' error||
+|3005|Parameter error||
+|3006|Ip error||
+|3007|Expire||
