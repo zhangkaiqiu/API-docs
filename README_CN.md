@@ -1,5 +1,6 @@
-
+### 
 # API交易
+[English API-docs](https://github.com/BitCola/API-docs)
 
 ## 1 说明
 
@@ -16,7 +17,7 @@
 
 `每个接口每秒限制调用 5 次`
 
-### [错误码](https://github.com/BitCola/API-docs/blob/master/README_CN.md#5-%E9%94%99%E8%AF%AF%E7%A0%81)
+### [错误码](https://github.com/BitCola/API-docs/blob/master/README_CN.md#5-错误码)
 
 
 ## 2 配置
