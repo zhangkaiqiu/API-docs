@@ -15,7 +15,7 @@
 
 ####  访问限制
 
-`每个接口每秒限制调用 5 次`
+`所有接口每秒限制调用 5 次`
 
 ### [错误码](https://github.com/BitCola/API-docs/blob/master/README_CN.md#5-错误码)
 
