@@ -15,7 +15,7 @@
 
 ####  Limit
 
-`5 calls per second per API`
+`5 calls per second all API`
 
 ### [Error Code](https://github.com/BitCola/API-docs#5-error-code)
 
