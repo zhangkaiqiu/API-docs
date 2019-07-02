@@ -526,4 +526,5 @@ GET /api/trade/getOrders
 |3005|Parameter error|传入参数错误|
 |3006|Ip error|不是申请API时填入的IP地址|
 |3007|Expire|请求已过期|
+|503|(canceled)|http状态码,访问超过限制,返回503或者直接关闭链接|
 
