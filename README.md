@@ -11,7 +11,7 @@
 
 ####  Signature
 `Applying API will get accessKey and secretKey, first encrypt the secretKey with sha, then sign the requested parameters according to the encrypted secretKey, request parameters are sorted and encrypted according to ascii value, and 16-bit encryption is filled by md5`
-### [Example](https://github.com/BitCola/quantitative/blob/master/src/main/java/com/bitcola/quantitative/api/TradeApi.java)
+[`Example`](https://github.com/BitCola/quantitative/blob/master/src/main/java/com/bitcola/quantitative/api/TradeApi.java)
 
 ####  Limit
 
