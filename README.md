@@ -7,7 +7,7 @@
 
 ####  API Server Address
     
-`Not yet open`
+`https://api.bitcola.io`
 
 ####  Signature
 `Applying API will get accessKey and secretKey, first encrypt the secretKey with sha, then sign the requested parameters according to the encrypted secretKey, request parameters are sorted and encrypted according to ascii value, and 16-bit encryption is filled by md5`
@@ -525,3 +525,4 @@ GET /api/trade/getOrders
 |3005|Parameter error||
 |3006|Ip error||
 |3007|Expire||
+|503|Http Status Code||
