@@ -507,7 +507,60 @@ GET /api/trade/getOrders
 |`data.remain`|number|未成交数量|
 |`data.status`|string|订单状态|
 |`data.type`|string|订单类型|
+#### 获取订单成交记录
+```
+GET /api/trade/getMatchRecord
+```
 
+>Query
+    
+|参数名|类型|必需|描述|示例|
+|---------|-------|-------------|-------|---|
+|`accessKey`|string|是||accessKey|
+|`id`|string|是|订单id||
+|`reqTime`|number|是||1561696726670|
+|`sign`|string|是||8ce4d660ce738d8046ea20f4570eb340|
+
+
+
+
+> 返回示例
+```json
+{
+    "status": 1000,
+    "message": "success",
+    "data": [
+        {
+            "orderId": "1144462404485959680",
+            "pair": "NXT_USDT",
+            "direction": "sell",
+            "timestamp": 1561696082293,
+            "price": 100,
+            "number": 9900,
+            "id": "UUID-UUID",
+            "type": "TACKER",
+            "fee": 0.02,
+            "feeCoinCode":"USDT",
+            "userId":"200000"
+        }
+    ]
+}
+```
+> 返回参数
+    
+|参数名|类型|描述|
+|--|--|--|
+|`data.orderId`|string|订单 ID|
+|`data.pair`|string|交易对|
+|`data.direction`|string|下单方向|
+|`data.timestamp`|number|时间戳|
+|`data.price`|number|成交价格|
+|`data.number`|number|成交数量|
+|`data.id`|string|成交记录 ID|
+|`data.fee`|number|手续费|
+|`data.feeCoinCode`|string|手续费币种|
+|`data.userId`|string|用户 ID|
+|`data.type`|string|订单类型|
 ## 5 错误码
 
 
